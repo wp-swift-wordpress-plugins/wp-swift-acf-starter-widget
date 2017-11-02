@@ -9,7 +9,7 @@ Text Domain:       wp-swift-acf-starter-widget
 
 //TODO
 
-1) Find & Replace all of the following (case sensitive):
+1) Find & Replace all of the following (case sensitive, don't use WP Swift or Widget in title):
 ACF Starter
 _ACF_Starter_
 _acf_starter_
@@ -28,7 +28,7 @@ or remove the include and create a new field group using the ACF API.
 */
 
 // Inclide the ACF group
-include "_acf-field-group.php";
+// include "_acf-field-group.php";
 
 class WP_Swift_ACF_Starter_Widget extends WP_Widget {
  
@@ -55,7 +55,7 @@ class WP_Swift_ACF_Starter_Widget extends WP_Widget {
      * @param array $instance Saved values from database.
      */
     public function widget( $args, $instance ) {    
-        include( plugin_dir_path( __FILE__ ) . '_wp-swift-acf-starter-widget.php');
+        include( plugin_dir_path( __FILE__ ) . '_wp-swift-widget.php');
     }
  
   
