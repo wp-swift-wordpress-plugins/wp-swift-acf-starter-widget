@@ -7,6 +7,16 @@
  * License:           GPL-2.0+
  * Text Domain:       wp-swift-acf-starter-widget
 
+## Usage
+```
+sh rename.sh
+
+Enter plugin name : 
+
+Enter plugin description :
+
+```
+
 ## Licence
 This project is licensed under the MIT license.
 

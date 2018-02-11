@@ -6,25 +6,6 @@ Version:           1.0.0
 Author:            Gary Swift
 License:           GPL-2.0+
 Text Domain:       wp-swift-acf-starter-widget
-
-//TODO
-
-1) Find & Replace all of the following (case sensitive, don't use WP Swift or Widget in title):
-ACF Starter
-_ACF_Starter_
-_acf_starter_
--acf-starter-
-
-2)
-Change description in header and constructor
-
-3)
-Update README.md with new details
-
-4) 
-Replace the sample ACf field group included in _acf-field-group.php 
-or remove the include and create a new field group using the ACF API.
-
 */
 
 // Inclide the ACF group
